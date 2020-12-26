@@ -42,9 +42,9 @@ def pay_in(current_balance):
         return f"Your current account balance is {current_balance:.2f}"
 
 
-def terminate():
-    exit_card = input(
-        "Do you want to exit? \n\t\t Press Y for Yes or N for No")
+# def terminate():
+#     exit_card = input(
+#         "Do you want to exit? \n\t\t Press Y for Yes or N for No")
 
 
 def ATM(exit_card):
