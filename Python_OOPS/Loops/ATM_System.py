@@ -4,7 +4,7 @@ current_balance = 69.69
 
 
 def pin(chances):
-    for chance in range(chances):
+    for chances in range(chances):
         pin_card = str(input("Please enter your pin number here: "))
         # pin_card='3111'
         if pin_card == '3110':

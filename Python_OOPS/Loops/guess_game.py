@@ -24,8 +24,8 @@ def guess_the_number(to_be_guessed, guess, chance):
         else:
             print("you've entered an unacceptable value\n\tPlease try again next time.")
     else:
-        print("\t\tCongratulations!!!\nyou have won the game in ",
-              chance, " chances!!!")
+        return("\t\tCongratulations!!!\nyou have won the game in ",
+               chance, " chances!!!")
 
 
 number = int(input("Enter the limit to your guess here: "))
