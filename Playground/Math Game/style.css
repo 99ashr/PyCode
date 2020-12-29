@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+}
+
+
+.display-box {
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+}
+
+.math-box {
+    display: block;
+    margin: 25px 0 10px;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+
+}
+
+.time-score-box {
+    display: block;
+    border-bottom: 2px solid black;
+}
+
+#time-box,
+#score-box {
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+.option-box {
+    text-align: center;
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+.options {
+    width: 25%;
+    margin: 10px 5px;
+    padding: 5px;
+    background: #512275;
+    color: #e7f1f3;
+    border-radius: 15px;
+    font-weight: 900;
+    display: inline-block;
+    outline: none;
+    border: 2px solid #323232;
+    font-size: 30px;
+    text-align: center;
+}
+
+.show-wrong-right {
+    margin: 15px 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.message-box {
+    text-align: center;
+}
+
+
+header h1 {
+    background: #663f94;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.lines {
+    margin: 10px 15px;
+    padding: 10px;
+    color: #1c1c1c;
+    font-size: 18px;
+}
+
+.lines ul li {
+    margin: 3px 0;
+}
+
+.links {
+    text-align: center;
+}
+
+.links a {
+    background: white;
+    color: #663f94;
+    font-size: 30px;
+    border: 3px solid #663f94;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 1px 30px;
+    transition: 0.4s;
+}
+
+.links a:hover {
+    background: #663f94;
+    color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#play-again-links {
+    margin: 15px 0 0;
+    display: none;
+}
