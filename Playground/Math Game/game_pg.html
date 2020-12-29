@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="" content="">
+    <title>MathWorkOut</title>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="responsive.css" type="text/css" media="all" />
+</head>
+
+<body>
+    <div class="main-body">
+        <div class="display-box">
+            <div class="time-score-box" id="time-score-box">
+                <div id="score-box">
+                    <h2>Score: 0</h2>
+                </div>
+                <div id="time-box">
+                    <h2>Time: 30</h2>
+                </div>
+            </div>
+            <div class="math-box">
+                <h2 id="math-box"></h2>
+            </div>
+        </div>
+        <div class="option-box">
+            <button type="submit" class="options" id="option-1" onclick="check_ans(option_1_pg)"></button>
+            <button type="submit" class="options" id="option-2" onclick="check_ans(option_2_pg)"></button>
+            <button type="submit" class="options" id="option-3" onclick="check_ans(option_3_pg)"></button>
+        </div>
+
+
+
+
+        <div class="show-wrong-right">
+            <h2 id="emoji-show"></h2>
+        </div>
+
+        <div class="message-box">
+            <h1 id="lost-msg"></h1>
+            <p id="extra-msg"></p>
+        </div>
+    </div>
+    <div class="links" id="play-again-links">
+        <a href="game_pg.html">Play again</a>
+    </div>
+    <footer>
+    </footer>
+    <script src="main.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>
