@@ -3,8 +3,6 @@ def right_half_pyramid(n):
         for i in range(i):
             print("*", end="")
         print("\r")  # \r --> carriage return
-
-
 # right_half_pyramid(5)
 
 
