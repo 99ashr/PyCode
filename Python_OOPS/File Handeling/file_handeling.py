@@ -13,7 +13,7 @@ def open_file(filename):
         filename ([string]): [description]
     """
     print("\t\t\topen_file function")
-    m = input("Press 'w' to write and 'r' for read: ")
+    m = input("Press 'w' to write or 'r' for read and 'a' to append into a file: ")
     file = open(filename, m)
     print("\t\tFile is opened by this function!!!")
     return (file, m)
@@ -29,6 +29,7 @@ def read_file(file):
 
 
 def write_file(file):
+    print("\t\tWrite file method!!!")
     file.write(user_input_write_file())
 
 
@@ -49,7 +50,7 @@ def handel():
     # print(m)
     if m == 'r':
         read_file(file)
-    elif m == 'w':
+    elif m == 'w' or 'a':
         write_file(file)
 
     close_file(file)
