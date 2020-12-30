@@ -12,15 +12,24 @@ def open_file(filename):
     Args:
         filename ([string]): [description]
     """
-    print("\t\tIn the open_file function")
-    # file=open(filename,mode)
-    file = open(filename, "r")
+    print("\t\t\topen_file function")
+    m = input("Press 'w' to write and 'r' for read: ")
+    file = open(filename, m)
     print("\t\tFile is opened by this function!!!")
-    return file
+    return (file, m)
+
+
+def user_input_write_file():
+    file_content = input("Enter the content to the file: ")
+    return file_content
 
 
 def read_file(file):
     print(file.read())
+
+
+def write_file(file):
+    file.write(user_input_write_file())
 
 
 def close_file(file):
@@ -32,10 +41,16 @@ def close_file(file):
 def handel():
     """This function contains all the file handeling operations!!!
     """
-    print("\t\tMain function")
+    print("\t\t\tMain function")
     filename = user_input()
-    file = open_file(filename)
-    read_file(file)
+    r = open_file(filename)
+    file = r[0]
+    m = r[1]
+    # print(m)
+    if m == 'r':
+        read_file(file)
+    elif m == 'w':
+        write_file(file)
 
     close_file(file)
 
