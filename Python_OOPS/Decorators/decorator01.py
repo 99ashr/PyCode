@@ -22,3 +22,6 @@ def ordinary():
 pretty = make_pretty(ordinary)
 pretty()
 #  make_pretty() is a decorator. The function ordinary() got decorated and the returned function was given the name pretty.
+# @make_pretty                  |<==>|          def ordinary():
+# def ordinary():               |<==>|              print("I am ordinary")
+# print("I am ordinary")        |<==>|          ordinary = make_pretty(ordinary)
