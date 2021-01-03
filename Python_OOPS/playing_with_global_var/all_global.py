@@ -19,14 +19,29 @@
 
 
 # @ change global variable value while used as a *local variable*
-a = 10
+# a = 10
+# def func():
+#     global a
+#     a = 15
+#     print("In function:", a)
+
+# func()
+# print("Outside function:", a)
+
+# @ accessing multiple global variables using global method
+a = 12
+b = 15
+print("Before function call:", a)
+print("Before function call:", b)
 
 
 def func():
-    global a
-    a = 15
+    globals()["a"] = 22
     print("In function:", a)
+    globals()['b'] = 25
+    print("In functions", b)
 
 
 func()
-print("Outside function:", a)
+print("outside function:", a)
+print("outside function:", b)
