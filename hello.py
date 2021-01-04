@@ -13,10 +13,18 @@ voices = engine.getProperty('voices')  # getting details of current voice
 engine.setProperty('voice', voices[1].id)
 
 
-engine.say("Hello World")
+def talk(talk):
+    engine.say(talk)
+    engine.runAndWait()
 
-"""Saving Voice to a file"""
-# On linux make sure that 'espeak' and 'ffmpeg' are installed
-# engine.save_to_file('Hello World', 'test.mp3')
-engine.runAndWait()
+
+talk("hi Ashish")
+# talk("I love you")
+
+# engine.say("Hello World")
+
+# """Saving Voice to a file"""
+# # On linux make sure that 'espeak' and 'ffmpeg' are installed
+# # engine.save_to_file('Hello World', 'test.mp3')
+# engine.runAndWait()
 engine.stop()
