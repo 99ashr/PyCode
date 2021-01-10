@@ -36,6 +36,20 @@
 # ! reduce is a function of functools library, which undergoes the process of expression in a sequence i.e fifo...
 # ---------------------------------------------------------------------------- #
 
-from functools import reduce
-p = reduce(lambda a, b: a+b, [23, 56, 43, 98, 1])
-print(p)
+# from functools import reduce
+# p = reduce(lambda a, b: a+b, [23, 56, 43, 98, 1])
+# print(p)
+
+# ------------------------------ Linear Equation ----------------------------- #
+def sq(a): return a*a
+
+
+print(sq(4))
+
+# 3x+4y
+
+
+def ex(x, y): return 3*x+4*y
+
+
+print(ex(4, 7))
