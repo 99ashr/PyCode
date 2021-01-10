@@ -41,15 +41,22 @@
 # print(p)
 
 # ------------------------------ Linear Equation ----------------------------- #
-def sq(a): return a*a
+# def sq(a): return a*a
 
 
-print(sq(4))
+# print(sq(4))
 
-# 3x+4y
-
-
-def ex(x, y): return 3*x+4*y
+# # 3x+4y
 
 
-print(ex(4, 7))
+# def ex(x, y): return 3*x+4*y
+
+
+# print(ex(4, 7))
+
+# ---------------------------- quadratic equation ---------------------------- #
+# (a+b)^2
+def quard(a, b): return (a+b)**2
+
+
+print(quard(2, 3))
