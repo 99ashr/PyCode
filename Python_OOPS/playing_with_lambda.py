@@ -19,6 +19,23 @@
 # @ Map function
 # & Syntax --> map(function,iterable)
 
-mylist = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-new_list = list(map(lambda x: x % 3 == 2, mylist))
-print(new_list)
+# ----------------------------------- Algo ----------------------------------- #
+# ! Generate a list
+# ! create a new list which maps every value in the previous list and checks weather the expression is true or false
+# ---------------------------------------------------------------------------- #
+
+# mylist = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# new_list = list(map(lambda x: x % 3 == 2, mylist))
+# print(new_list)
+
+
+# @ Reduce function from functools
+# & Syntax --> reduce(function,sequence)
+
+# ----------------------------------- Algo ----------------------------------- #
+# ! reduce is a function of functools library, which undergoes the process of expression in a sequence i.e fifo...
+# ---------------------------------------------------------------------------- #
+
+from functools import reduce
+p = reduce(lambda a, b: a+b, [23, 56, 43, 98, 1])
+print(p)
