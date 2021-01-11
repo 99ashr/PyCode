@@ -56,7 +56,7 @@
 
 # ---------------------------- quadratic equation ---------------------------- #
 # (a+b)^2
-def quard(a, b): return (a+b)**2
+# def quard(a, b): return (a+b)**2
 
 
-print(quard(2, 3))
+# print(quard(2, 3))
