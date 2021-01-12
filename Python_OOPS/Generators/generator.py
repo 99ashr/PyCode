@@ -24,4 +24,22 @@ a = {1: "Hi", 2: "Welcome"}
 b = new(a)
 print("Generator Function02 Called for once:", next(b))
 print("Generator Function02 Called twice:", next(b))
+# ---------------------------------------------------------------------------- #
+
+#* ---------------- For loop gives all the items of generators ---------------- #
+
+print("Generator using for loop")
+
+
+def ex():
+    n = 3
+    yield n
+    n *= n
+    yield n
+
+
+v = ex()
+for i in v:
+    print(i)
+
 #* ------------------------------------ EOF ----------------------------------- #
