@@ -4,25 +4,26 @@
 # & Syntax --> map(functions,Iterables)
 
 # ---------------------------------------------------------------------------- #
-# def func(a):
-#     return a*a
+def func(a):
+    return a*a
 
 
-# x = map(func, [1, 2, 3, 4, 5])
-# print(list(x))
+x = map(func, [1, 2, 3, 4, 5])
+print(list(x))
 # ---------------------------------------------------------------------------- #
 
-# def func(a, b):
-#     return a*b
+
+def func2(a, b):
+    return a*b
 
 
-# x = map(func, [1, 2, 3, 4, 5], [2, 3, 4, 5])
-# print(list(x))
+x = map(func2, [1, 2, 3, 4, 5], [2, 3, 4, 5])
+print(list(x))
 
 # ---------------------- map func using lambda function ---------------------- #
-# lst = [2, 3, 4, 5]
-# x = list(map(lambda a: a+3, lst))
-# print(x)
+lst = [2, 3, 4, 5]
+x = list(map(lambda a: a+3, lst))
+print(x)
 # ---------------------------------------------------------------------------- #
 
 #* ------------------------------------ EOF ----------------------------------- #
