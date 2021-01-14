@@ -1,1 +1,0 @@
-this is the content to the file through the write method of my program.this is the content which is supposed to be appended to the demo_file.txt through the file_handeling program
