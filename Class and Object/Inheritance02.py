@@ -37,4 +37,9 @@ t = Triangle()
 t.input_side()
 t.display_sides()
 t.Area()
+# ---------------------------------------------------------------------------- #
+# print(isinstance(t, Triangle))
+# print(isinstance(t, polygon))
+# print(issubclass(Triangle, polygon))
+# print(issubclass(polygon, Triangle))
 #* ------------------------------------ EOF ----------------------------------- #
