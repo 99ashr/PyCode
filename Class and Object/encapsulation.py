@@ -8,7 +8,7 @@
 class Computer:
 
     def __init__(self):
-        self.__maxprice = 900
+        self.__maxprice = 9003
 
     def sell(self):
         print("Selling Price: {}".format(self.__maxprice))
