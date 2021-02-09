@@ -7,7 +7,7 @@ TCS NQT
 | English            | 15        | 10 mins |
 | Quant              | 15        | 30mins  |
 | Programming Logics | 10        | 20 mins |
-| coding             | 1         | 20 mins |
+| Coding             | 1         | 20 mins |
 
 [Official Pattern]("https://www.faceprep.in/tcs/tcs-ninja-placement-papers/" "NQT pattern")
 
@@ -16,7 +16,7 @@ TCS NQT
 
 
 Coding Questions:
-1. Reverse a String and a Number
+~~1. Reverse a String and a Number~~
 2. Palindrome (Number and String)
 3. Prime Number
 4. Find Leap Year 💛 
