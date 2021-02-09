@@ -17,7 +17,7 @@ TCS NQT
 
 Coding Questions:
 ~~1. Reverse a String and a Number~~
-2. Palindrome (Number and String)
+~~2. Palindrome (Number and String)~~
 3. Prime Number
 4. Find Leap Year 💛 
 5. Greatest among 10 numbers
