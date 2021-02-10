@@ -21,7 +21,7 @@ Coding Questions:
 ~~3. Prime Number~~
 ~~4. Find Leap Year 💛 ~~
 ~~5. Greatest among 10 numbers~~
-6. Fibonacci Series
+~~6. Fibonacci Series~~
 7. HCF/GCD
 8. Factorial
 9. Decimal-->Binary vice-versa or Binary-->Octal, Decimal--> Octal
