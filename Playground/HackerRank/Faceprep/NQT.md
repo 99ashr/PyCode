@@ -20,7 +20,7 @@ Coding Questions:
 ~~2. Palindrome (Number and String)~~
 ~~3. Prime Number~~
 ~~4. Find Leap Year 💛 ~~
-5. Greatest among 10 numbers
+~~5. Greatest among 10 numbers~~
 6. Fibonacci Series
 7. HCF/GCD
 8. Factorial
