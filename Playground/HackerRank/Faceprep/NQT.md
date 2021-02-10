@@ -23,7 +23,7 @@ Coding Questions:
 ~~5. Greatest among 10 numbers~~
 ~~6. Fibonacci Series~~
 ~~7. HCF/GCD~~
-8. Factorial
+~~8. Factorial~~
 9. Decimal-->Binary vice-versa or Binary-->Octal, Decimal--> Octal
 10. Armstrong Number
 11. Area of a Shape
