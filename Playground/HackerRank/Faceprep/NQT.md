@@ -32,7 +32,7 @@ Coding Questions:
 ~~14. LCM using CLP~~
 ~~15. Average of numbers~~
 ~~16. Sum of digits of a number~~
-17. Sq Root of a number
+~~17. Sq Root of a number~~
 ~~18. Odd-Even Number~~
 ~~19. Strong Number or krishnamurty number~~
 ~~20. ASCII value~~
