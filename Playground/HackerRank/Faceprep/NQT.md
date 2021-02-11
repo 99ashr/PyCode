@@ -19,7 +19,7 @@ Coding Questions:
 ~~1. Reverse a String and a Number~~
 ~~2. Palindrome (Number and String)~~
 ~~3. Prime Number~~
-~~4. Find Leap Year 💛 ~~
+~~4. Find Leap Year 💛~~
 ~~5. Greatest among 10 numbers~~
 ~~6. Fibonacci Series~~
 ~~7. HCF/GCD~~
@@ -35,4 +35,4 @@ Coding Questions:
 17. Sq Root of a number
 ~~18. Odd-Even Number~~
 ~~19. Strong Number or krishnamurty number~~
-~~20. ASCII value ~~
+~~20. ASCII value~~
