@@ -34,5 +34,5 @@ Coding Questions:
 ~~16. Sum of digits of a number~~
 17. Sq Root of a number
 ~~18. Odd-Even Number~~
-19. Strong Number or kisrshanmurty number
-20. ASCII value 
+19. Strong Number or krishnamurty number
+~~20. ASCII value ~~
