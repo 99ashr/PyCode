@@ -27,12 +27,12 @@ Coding Questions:
 ~~9. Decimal-->Binary vice-versa or Binary-->Octal, Decimal--> Octal~~
 ~~10. Armstrong Number~~
 ~~11. Area of a Shapes~~
-12. Swap two numbers
+~~12. Swap two numbers~~
 ~~13. Concatenate Two strings~~
 14. LCM using CLP
 ~~15. Average of numbers~~
 ~~16. Sum of digits of a number~~
 17. Sq Root of a number
-18. Odd-Even Number
+~~18. Odd-Even Number~~
 19. Strong Number or kisrshanmurty number
 20. ASCII value 
