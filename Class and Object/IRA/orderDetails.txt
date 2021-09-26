@@ -1,0 +1,7 @@
+OrderID;OrderName;Quantity:Customer
+O123;pen;30;Ananta Gogoi
+O778;pencil;200;Biraj Phukan
+O234;pen holder;230;Haren Borah
+O891:pen;60;juthika
+O7111;eraser;100;Anjana
+O12221;water color;20;Nirupam

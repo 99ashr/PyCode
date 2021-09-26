@@ -1,0 +1,7 @@
+Roll|Name|Subject|Class
+01|Ananya|English|5th Class
+02|Vanisha|English|4th Class
+03|Bawal|History|6th Class
+04|Randi|English|2nd Class
+05|Ashish|English|5th Class
+06|Jitu|History|2nd Class

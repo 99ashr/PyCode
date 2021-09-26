@@ -1,0 +1,9 @@
+fruitID,fruitName,unitPrice,quantity,totalPrice
+2010,Apple,80,20,1600
+1011,kiwi,400,1,400
+3276,Apple,60,10,600
+2356,Orange,30,3,90
+1263,Grapes,150,3,450
+1234,Apple,100,20,2000
+9876,kiwi,500,3,1500
+4775,Orange,200,5,1000

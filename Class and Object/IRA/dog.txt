@@ -1,0 +1,7 @@
+2010-34589056|Labrador|Dog|Yes 
+2021-90889056|Persian Cat|Cat Yes
+2015-34589056|Pug|Dog|Yes
+2013-78909654|Husky|Dog|Yes
+2010-34589056|Labrador|Dog|Yes 
+A45-90889056|Persian Cat|Cat|Yes 
+201-34589056|Pug|Dog|Yes

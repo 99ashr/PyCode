@@ -1,0 +1,11 @@
+Empld;EmpName;Salary
+1231;Tushar,20000
+5671;Dick;35000
+7712;Harry;50000
+8712;Reenee;25000 
+4444;Bakul;50000
+1231;Tushar,20000
+5671;Dick;35000
+7712;Harry;50000
+8712;Reenee;25000 
+4444;Bakul;70000

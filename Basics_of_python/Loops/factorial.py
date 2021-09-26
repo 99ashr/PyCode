@@ -22,5 +22,6 @@ def fact(n):
         return fact(n-1)*n
 
 
-n = int(input("Enter the number you want to find factorial of : "))
+n = 5
+# n = int(input("Enter the number you want to find factorial of : "))
 print(fact(n))

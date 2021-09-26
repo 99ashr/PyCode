@@ -1,0 +1,7 @@
+MedicineID,MedicineName,MedicineCost
+SP_123423,Montek,75
+SP_712221,Forocot,105
+TB_006745_10,Concor,250
+TB_102030_25,Ivabid,325
+TB_100011_15,Zetanit,150
+TB_123321_9,Ibporfin,270

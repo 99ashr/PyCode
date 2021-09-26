@@ -1,7 +1,7 @@
 n = 10
 
 
-def pyramid():
+def pyramid(n):
     for i in range(1, n+1):
         for _ in range(n-i):
             print(" ", end="")
