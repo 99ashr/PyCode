@@ -6,11 +6,11 @@
 
 #** ---------------------------------- Inputs ---------------------------------- #
 
-# s='chris alan'
-# s='12abc'
-# s='ram prasad sharma'
-s = "1 2 2 3 4 5 6 7 8  9"
-# s='ram12 praSAd 12shArma   ansari khan_thakur '
+s = 'chris alan'
+s1 = '12abc'
+s2 = 'ram prasad sharma'
+s3 = "1 2 2 3 4 5 6 7 8  9"
+s4 = 'ram12 praSAd 12shArma   ansari khan_thakur '
 
 # ---------------------------------------------------------------------------- #
 
@@ -24,5 +24,10 @@ def solve(s):
     return k
 
 
-solve(s)
+print(solve(s))
+print(solve(s1))
+print(solve(s2))
+print(solve(s3))
+print(solve(s4))
+
 #! ------------------------------------ EOF ----------------------------------- #

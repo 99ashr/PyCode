@@ -16,4 +16,4 @@ def reverse_words_order_and_swap_cases(sentence):
 
 
 if __name__ == '__main__':
-    reverse_words_order_and_swap_cases("aWESOME is cODING")
+    print(reverse_words_order_and_swap_cases("aWESOME is cODING"))
